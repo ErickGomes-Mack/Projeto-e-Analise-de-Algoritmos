@@ -1,0 +1,27 @@
+Para gravar as músicas em cada lado da fita, é necessário que:
+    - Cada lado (T/2) tenha memória o suficiente para todas as 
+      músicas propostas (L);
+      Ou seja: Lado A = T/2 
+               Lado B = T/2
+               Tempo das Músicas = (M, S) + ...
+               Ver se cabe = TM <= Lado X
+
+
+Coisas para fazer:
+    - Leitura do .txt (não esquecer de fechar o arquivo depois);
+        Não preciso armazenar em array, só ler cada linha confor
+        me o necessário;
+    - Função para somar minutos e músicas corretamente;
+    - Backtracking:
+        Fazer a parte de permutação;
+
+Sobre o Backtracking: 
+A essência do algoritmo é ele testar uma opção (uma música), 
+se ela for menor do que o tempo total restante da fita se 
+enquadra como solução. 
+Caso ao contrário, a música é colocada em "espera" para ser 
+colocada no próximo lado.
+Se ainda não for possível, não tem solução. 
+
+Referências:
+    https://www.youtube.com/watch?v=X-1qodkHCHo&t=255s
