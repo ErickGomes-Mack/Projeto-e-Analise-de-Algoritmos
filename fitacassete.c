@@ -32,7 +32,7 @@ void leituraRegras(char listaDados[]);
 
 int main() {
 
-    if((entrada = fopen("entrada.txt", "r")) == NULL)
+    if((entrada = fopen("C:\Users\erick\OneDrive\Documentos\GitHub\Projeto-e-Analise-de-Algoritmos\entrada.txt", "r")) == NULL)
         printf("Erro ao abrir o aquivo.\n");
     else
       printf("Arquivo aberto com sucesso.\n");  
